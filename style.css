@@ -128,6 +128,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 /* resuable css class  */
@@ -289,6 +290,12 @@ img {
 
 .home-blob-img {
  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-self: center;
+  align-self: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 .home-data {
